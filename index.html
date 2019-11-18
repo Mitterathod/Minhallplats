@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="sstyle.css" />
+    <title>Document</title>
+    <h1>Välj resa</h1>
+</head>
+
+<body>
+
+
+
+    <input class="Från" id="from" placeholder="Från station">
+    <br>
+    <button type="button" onclick="showdata()">Sök resa</button>
+
+    <table>
+        <tbody id="information"></tbody>
+    </table>
+    <script language="javascript"></script>
+    <div id="siteid"></div>
+    <table>
+        <thead>
+            <tr>
+                <th>Linje:</th>
+                <th>Destination:</th>
+                <th>Gå om</th>
+                <th>Ankomst</th>
+            </tr>
+        </thead>
+        <tbody id="resa_info">
+
+        </tbody>
+    </table>
+
+    <script src="index.js"></script>
+
+
+
+</body>
+
+</html>

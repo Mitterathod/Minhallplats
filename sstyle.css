@@ -1,0 +1,67 @@
+body {
+    background-color: #CDDEFC
+}
+
+table {
+    background-color: #CDDEFC
+    
+}
+
+.content-table th {
+    padding: 12px 15px;
+}
+
+input {
+    text-align: left;
+    padding: 10px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    
+}
+
+::placeholder {
+    text-align: left;
+    padding: 0px;
+    margin-left: 300px;
+   
+}
+
+button {
+    align-content: center;
+    padding: 10px;
+    margin-left: 140px;
+    margin-bottom: 10px;
+    border-color: #CDDEFC;
+
+
+    
+}
+
+.form input {
+    align-content: center;
+    padding-top: 100px;
+
+}
+
+table{
+    border-collapse: collapse;
+    width: 50%;
+    padding: 2px;
+    text-align: center;
+    position: fixed;
+}
+th, td{
+    border: 2px solid #000;
+    width: 50%;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    padding: 0px;
+    margin: 0px;
+}
+
